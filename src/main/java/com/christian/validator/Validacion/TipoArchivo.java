@@ -1,4 +1,4 @@
-package com.christian.validator;
+package com.christian.validator.Validacion;
 
 import org.springframework.stereotype.Component;
 

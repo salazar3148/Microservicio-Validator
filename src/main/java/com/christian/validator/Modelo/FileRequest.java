@@ -1,4 +1,4 @@
-package com.christian.validator;
+package com.christian.validator.Modelo;
 
 public class FileRequest {
     private final String[] line;

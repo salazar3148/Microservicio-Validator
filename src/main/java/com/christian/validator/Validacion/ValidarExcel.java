@@ -1,10 +1,12 @@
-package com.christian.validator;
+package com.christian.validator.Validacion;
+
+import com.christian.validator.Validacion.ValidarArchivo;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ValidarExcel implements ValidarArchivo{
+public class ValidarExcel implements ValidarArchivo {
     @Override
     public boolean validarLinea(String[] linea) {
         Set<String> set = new HashSet<String>(Arrays.asList(

@@ -1,5 +1,7 @@
-package com.christian.validator;
+package com.christian.validator.Controller;
 
+import com.christian.validator.Modelo.FileRequest;
+import com.christian.validator.Service.ValidatorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

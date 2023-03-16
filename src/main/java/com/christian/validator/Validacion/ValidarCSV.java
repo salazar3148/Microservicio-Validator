@@ -1,4 +1,6 @@
-package com.christian.validator;
+package com.christian.validator.Validacion;
+
+import com.christian.validator.Validacion.ValidarArchivo;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -6,7 +8,7 @@ import java.util.Set;
 import java.time.LocalDate;
 
 
-public class ValidarCSV implements ValidarArchivo{
+public class ValidarCSV implements ValidarArchivo {
     @Override
     public boolean validarLinea(String[] linea) {
         String[] fecha = linea[7].split("-");

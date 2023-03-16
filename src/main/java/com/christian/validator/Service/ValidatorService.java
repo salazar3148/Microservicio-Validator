@@ -1,5 +1,8 @@
-package com.christian.validator;
+package com.christian.validator.Service;
 
+import com.christian.validator.Modelo.FileRequest;
+import com.christian.validator.Validacion.TipoArchivo;
+import com.christian.validator.Validacion.ValidarArchivo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
