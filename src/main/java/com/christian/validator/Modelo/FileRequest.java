@@ -1,17 +1,15 @@
 package com.christian.validator.Modelo;
+import com.christian.validator.Linea.Linea;
 
 public class FileRequest {
-    private final String[] line;
-    private final String fileType;
-    public FileRequest(String[] line, String fileType) {
+    private Linea line;
+    public FileRequest(){
+    }
+    public FileRequest(Linea line) {
         this.line = line;
-        this.fileType = fileType;
     }
-    public String[] getLine() {
+    public Linea getLine() {
         return line;
-    }
-    public String getFileType() {
-        return fileType;
     }
 
 }

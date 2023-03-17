@@ -16,7 +16,7 @@ public class ValidatorService {
     }
 
     public boolean validarLinea(FileRequest fileRequest) {
-        ValidarArchivo archivo = tipoArchivo.obtenerTipo(fileRequest.getFileType());
+        ValidarArchivo archivo = tipoArchivo.obtenerTipo(fileRequest.getLine().getType());
         return archivo.validarLinea(fileRequest.getLine());
     }
 }
